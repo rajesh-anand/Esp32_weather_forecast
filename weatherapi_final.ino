@@ -3,16 +3,16 @@
 #include <HTTPClient.h>
 
 // WiFi credentials
-const char* ssid = "Rajesh";
-const char* password = "12345678";
+const char* ssid = "";
+const char* password = "";
 
 // OpenWeather API
-String URL = "http://api.openweathermap.org/data/2.5/weather?";
-String ApiKey = "53d2dfc58d84c5c47c34b8a7a3df579e";  // Replace with your API key
+String URL = "";      //Replace with your URL
+String ApiKey = "";  // Replace with your API key
 
 // Coordinates
-String lat = "10.72807662524842";
-String lon = "79.01925244463528";
+String lat = ""; // Mention latitude
+String lon = ""; // Mention longitude
 
 void setup() {
   Serial.begin(115200);
